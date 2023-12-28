@@ -14,12 +14,12 @@
 
 </head>
 
-<body class="font-sans relative">
+<body class="font-sans relative" style="background-image: url('admin/images/for2.jpg');background-repeat: no-repeat;  background-size:cover;">
 
     <!-- Banner Image -->
     <div id="navbar">
         <!-- Add your navigation links here -->
-        <a href="https://flowbite.com/" class="flex items-center ">
+        <a href="index.php" class="flex items-center ">
                   <img src="https://www.swixxz.com/cdn/shop/files/attempt6_480x.gif?v=1614301760" class="object-cover h-16" alt="FlowBite Logo" />
                   
               </a>
@@ -33,7 +33,9 @@
     <!-- Banner Image -->
     <div class="relative h-screen">
         <img class="object-cover w-full h-full" src="admin\images\1.png" alt="Banner Image">
-
+        <div class="w-full bg-black"></div>
+        <div class="w-full bg-black">33</div>
+        <div class="w-full bg-black">ee</div>
         <!-- Overlay Content -->
         <div class="absolute inset-x-0 bottom-3 flex items-center justify-center">
             <div class="text-white text-center">
@@ -41,56 +43,76 @@
                 <a href="#" class="mt-9 inline-block px-5 py-2 text-pink-700 rounded-lg" style="background-color:rgb(0,0,0,0.8)">Explore Now</a>
             </div>
         </div>
+       
     </div>
-
-    <!-- Content Section -->
-    <div class="container mx-auto py-8" style="background-color:#000">
-        <h2 class="text-3xl font-semibold mb-4">Featured Songs</h2>
-        <!-- Add your content here -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Song Cards or Content Blocks -->
-            <div class="bg-white p-4 shadow-md rounded-md">
-                <!-- Song Content -->
-            </div>
-            <div class="bg-white p-4 shadow-md rounded-md">
-                <!-- Song Content -->
-            </div>
-            <div class="bg-white p-4 shadow-md rounded-md">
-                <!-- Song Content -->
-            </div>
-        </div>
-    </div>
+    
+    <br>
+    
 
 
 
     
-
+<br>
     <div id="home">
-    <section class="text-gray-600 body-font" >
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center mt-20" style="background-color:#000">
+    <section class="text-white h-full w-11/12 mx-auto bg-purple-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border-2 border-black
+" style="background-color:rgb(0,0,0,0.2)">
+        <div class="container mx-auto flex p-6 md:flex-row flex-col items-center text-white">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+            <img class="object-cover object-center rounded" alt="hero" src="admin/images/skulls.jpg">
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to My Website
+            <h1 class="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">Welcome the Metal Wrold
             </h1>
             <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Nam euismod maximus varius. Cras id dui ut ligula volutpat tristique. 
                 Ut mauris ex, auctor vitae aliquet id, scelerisque ut nibh.</p>
-            <div class="flex justify-center">
+            <!-- <div class="flex justify-center">
               <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
               <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-            </div>
+            </div> -->
           </div>
         </div>
+        <br>
+        <div>
+        <!-- Centered Heading -->
+        <h1 class="text-5xl font-semibold text-center p-1 mx-auto">Kindgdom of Punk </h1><br>
+        <h2 class="text-2xl font-medium mt-3 ml-4">Home of Artits/Bands like...</h2>
+
+        <br>
+
+        <!-- Add your content below the heading -->
+    </div>
       </section>
   </div>
 
-  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
  
-  <iframe class="w-full h-96" src="http://localhost:8502/" title="Streamlit App" frameborder="0" allowfullscreen></iframe>
+  <!-- <iframe class="w-full h-96" src="http://localhost:8502/" title="Streamlit App" frameborder="0" allowfullscreen></iframe> -->
 
-<footer class="" style="background-color: rgb(0, 0, 0,1)">
+<footer class="" style="background-color: rgb(0, 0, 0,0.1);">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">

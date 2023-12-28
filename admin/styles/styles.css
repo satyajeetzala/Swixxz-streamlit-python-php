@@ -1,5 +1,10 @@
 body{
-    background-color: rgb(0,0,0);
+     /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    background-size: cover; /* Adjust the background size to cover the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
 }
 
 
