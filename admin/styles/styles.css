@@ -23,10 +23,9 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem;
     display: flex;
     align-items: left;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(203, 7, 7, 0);
     backdrop-filter: blur(0px); 
     z-index: 10;
 }
