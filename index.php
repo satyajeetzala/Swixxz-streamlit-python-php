@@ -1,6 +1,18 @@
 <?php include 'navbar.php'; 
-include 'admin/conn.php';
-include 'admin/sessioncheck.php';?>
+include 'conn.php';
+?>
+<?php
+// Start the session 
+session_start();
+
+// Check if the user is not logged in (session variable not set)
+if (!isset($_SESSION['user_id'])) {
+    // Redirect to the login page using JavaScript
+    echo '<script>window.location.href = "login.php";</script>';
+    // Stop further execution to prevent content from being displayed
+    exit();
+}
+?>
 
 
 
@@ -29,8 +41,8 @@ include 'admin/sessioncheck.php';?>
     
     <div id="home" style="margin-top: 2px;">
 
-    <section class="text-white h-full w-11/12 mx-auto bg-purple-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border-2 border-black
-" style="background-color:rgb(0,0,0,0.2)">
+    <section class="text-white h-full w-11/12 mx-auto bg-purple-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-5 border-2 border-black
+" style="">
         <div class="container mx-auto flex p-6 md:flex-row flex-col items-center text-white">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
     <div class="relative aspect-w-1 aspect-h-1">

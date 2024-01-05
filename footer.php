@@ -1,5 +1,6 @@
 
-<footer class="" style="background-color: rgb(0, 0, 0,0.1);color:#fff;">
+<footer class="h-full w-full bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border-gray-100
+" style="background-color: rgb(0, 0, 0,0.5);color:#fff;">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
@@ -8,8 +9,8 @@
                   <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white pl-1 pb-1"> S W I X X Z</span>
               </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-              <div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ml-auto">
+              <!-- <div>
                   <h2 class="mb-6 text-sm font-semibold  uppercase dark:text-white">Resources</h2>
                   <ul class="dark:text-pink-700 font-medium">
                       <li class="mb-4">
@@ -19,20 +20,20 @@
                           <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
                       </li>
                   </ul>
-              </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+              </div> -->
+              <div >
+                  <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Follow us</h2>
                   <ul class="dark:text-pink-700 font-medium">
                       <li class="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                          <a href="https://github.com/satyajeetzala" class="hover:underline ">Github</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                          <a href="https://discord.gg/4ehjeurUVvTy" class="hover:underline">Discord</a>
                       </li>
                   </ul>
               </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+              <div class="-mr-12 mx-auto">
+                  <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
                   <ul class="text-gray-500 dark:text-pink-700 font-medium">
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>

@@ -27,7 +27,7 @@
 <body class="font-sans relative bg-gradient-to-b from-pink-900 via-gray-900 to-rose-900" style="background-image: url('admin/images/nbg.jpg');background-repeat: no-repeat;  background-size:cover;">
 
     <!-- Banner Image -->
-    <div id="navbar" style="height:2%;" class="flex items-center justify-between -mb-8" >
+    <div id="navbar" style="height:auto;" class="flex items-center justify-between -mb-8" >
     <!-- Logo and Navigation Links -->
     <div class="flex items-center">
         <a href="index.php" class="flex items-center">
