@@ -1,10 +1,12 @@
 <?php 
 include 'sidebar.php';
 include 'conn.php';
+include 'sessioncheck.php';
 
 ?>
+<br>
 
-<div class="p-4 lg:w-1/2 md:w-2/3 w-full p-4 sm:ml-64 lg:w-1/2 md:w-2/3 w-full bg-black p-6 shadow-md rounded-md shadow-md rounded-md">
+<div class="p-4 ml-16 lg:w-1/2 md:w-2/3 w-full bg-black text-white shadow-md rounded-md shadow-md rounded-md">
         <h2 class="text-3xl font-semibold mb-4">Concerts Dashboard</h2>
 
         <?php
@@ -21,14 +23,15 @@ include 'conn.php';
         
         ?>
 
-        <div class="bg-gradient-to-r from-pink-600 to-purple-800 p-6 rounded-md text-white">
+        <div class="h-full w-full bg-purple-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+ p-6 rounded-md text-white">
             <h3 class="text-xl font-semibold mb-2">Available Concerts</h3>
             <p class="text-4xl font-bold"><?php echo $totalConcerts; ?></p>
         </div>
     </div>
 
-    <div class="p-4 sm:ml-64 lg:w-1/2 md:w-2/3 w-full bg-black p-6 shadow-md rounded-md">
-        <h2 class="text-3xl font-semibold mb-4">Concerts Dashboard</h2>
+    <div class="p-4 ml-16 lg:w-1/2 md:w-2/3 w-full text-white bg-black p-6 shadow-md rounded-md">
+        <h2 class="text-3xl font-semibold mb-4">Concerts List</h2>
 
         <?php
         // Replace the following PHP code with your actual database connection and query
@@ -39,7 +42,8 @@ include 'conn.php';
         mysqli_close($conn);
         ?>
 
-        <table class="min-w-full bg-white border border-gray-300 shadow-md rounded-md overflow-hidden">
+        <table class="min-w-full h-full w-full bg-purple-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100
+ rounded-md overflow-hidden">
             <thead class="bg-gray-800 text-white">
                 <tr>
                     <th class="py-2 px-4">ID</th>
@@ -49,7 +53,7 @@ include 'conn.php';
                     <th class="py-2 px-4">Time</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="bg-gray-900 text-white">
                 <?php while ($row = mysqli_fetch_assoc($result)) : ?>
                     <tr>
                         <td class="py-2 px-4"><?php echo $row['id']; ?></td>

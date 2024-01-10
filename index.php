@@ -73,7 +73,8 @@ if (!isset($_SESSION['user_id'])) {
         <div>
         <!-- Centered Heading -->
         <h1 class="text-5xl font-semibold text-center p-1 mx-auto">Kindgdom of Punk </h1><br><br>
-        <h2 class="text-2xl font-medium mt-3 ml-4">Home of Artists/Bands like...</h2>
+        <h2 class="text-2xl font-medium mt-3 ml-4">Home of Artists/Bands like...
+        </h2>
 
 
         <!-- Add your content below the heading -->
@@ -93,28 +94,40 @@ if (!isset($_SESSION['user_id'])) {
         <h2 class="text-center text-xl mt-2">Blackbear</h2>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="admin/images/ok.jpg" alt="">
-        <h2 class="text-center text-xl mt-2">Machine Gun Kelly</h2>
+        <img class="h-auto max-w-full rounded-lg" src="admin/images/nf.jpg" alt="">
+        <h2 class="text-center text-xl mt-2">NF Music</h2>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="admin/images/ok (1).jpg" alt="">
-        <h2 class="text-center text-xl mt-2">5 Seconds of Summer</h2>
+        <img class="h-auto max-w-full rounded-lg" src="admin/images/km.jpg" alt="">
+        <h2 class="text-center text-xl mt-2">Kailee Morgue</h2>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="admin/images/ok (2).jpg" alt="">
-        <h2 class="text-center text-xl mt-2">Blackbear</h2>
+        <img class="h-auto max-w-full rounded-lg" src="admin/images/am.jpg" alt="">
+        <h2 class="text-center text-xl mt-2">Arctic Monkeys</h2>
     </div>
+    
+</div>  
+        
+
+    
 </div>
-    
-    
+<div class="flex items-center justify-center mb-4 -mr-8" style="margin-top: -55px;">
+    <div class="rounded-md">
+        <button class="w-full h-12 bg-gray-500 bg-opacity-10 text-white px-4 py-2 rounded-md hover:bg-pink-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+            C h e c k &nbsp; O u t
+        </button>
+       
+    </div>
 </div>
 
     </div>
       </section>
+      
   </div>
 
-  <br>
-  <br>
+  
+  
+
   <br>
   <br>
   <div class="relative w-11/12 h-96 mx-auto overflow-hidden rounded-lg">
@@ -126,35 +139,43 @@ if (!isset($_SESSION['user_id'])) {
         <div>
             <h2 class="text-4xl font-bold mb-4"> Explore Concerts Near You</h2>
             <p class="text-lg mb-6">Additional information or description goes here.</p>
-            <a href="#" class="py-2 px-4 bg-gray-800 text-white rounded-lg hover:bg-gray-600">Get In</a>
+            <a href="page.php" class="py-2 px-4 bg-gray-800 text-white rounded-lg hover:bg-gray-600">Get In</a>
         </div>
     </div>
 </div>
 
 
+
+<br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+
+
+<div class="container mx-auto flex flex-col lg:flex-row items-center justify-center p-8">
+    <!-- Image Section (60% width on large screens) -->
+    <div class="lg:w-7/12 p-4 ml-2 mb-8 lg:mb-0">
+        <img src="admin/images/explore.jpg" alt="Image" class="w-11/12 h-auto object-cover rounded-md">
+    </div>
+
+    <!-- Text Section (40% width on large screens) -->
+    <div class="lg:w-5/12 lg:pl-2">
+        <h2 class="text-4xl font-semibold mb-4 text-white">Discover Simillar Songs</h2>
+        <p class="text-2xl text-white mb-4">From what you like</p>
+        
+        <!-- Button -->
+        <a href="explorer.php" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+            Learn More
+        </a>
+    </div>
+</div>
+
+
+  
   <br>
   <br>
   <br>
  
-  <div class="h-96" style="min-height: 800px;">
+  <!-- <div class="h-96" style="min-height: 800px;">
   <iframe class="w-10/12 h-full rounded-xl dark:bg-gray-800 mx-auto" src="http://localhost:8501/" title="Streamlit App" frameborder="0" allowfullscreen></iframe>
-  </div>
+  </div> -->
 
 <?php include 'footer.php'; ?>

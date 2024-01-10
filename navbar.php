@@ -34,14 +34,14 @@
             <img src="https://www.swixxz.com/cdn/shop/files/attempt6_480x.gif?v=1614301760" class="object-cover h-16 pl-2" alt="FlowBite Logo" />
         </a>
         <a href="#" class="hover:text-pink-700 text-xl">Home</a>
-        <a href="#" class="hover:text-pink-700 text-xl">Genres</a>
-        <a href="#" class="hover:text-pink-700 text-xl">Artists</a>
-        <a href="#" class="hover:text-pink-700 text-xl">Playlists</a>
+        <a href="page.php" class="hover:text-pink-700 text-xl">Concerts</a>
+        <a href="artists.php" class="hover:text-pink-700 text-xl">Artists</a>
+        <a href="explorer.php" class="hover:text-pink-700 text-xl">Explorer</a>
     </div>
 
     <!-- User Logo -->
-
+    
     <div>
-    <a href="#" class="hover:text-pink-700 text-xl">Playlists</a>
+    <a href="logout.php" class="hover:text-pink-700 text-xl">Log Out</a>
     </div>
 </div>

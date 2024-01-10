@@ -36,10 +36,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
                   <ul class="text-gray-500 dark:text-pink-700 font-medium">
                       <li class="mb-4">
-                          <a href="#" class="hover:underline">Privacy Policy</a>
+                          <a href="about.php" class="hover:underline">About</a>
                       </li>
                       <li>
-                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                          <a href="tanc.php" class="hover:underline">Terms &amp; Conditions</a>
                       </li>
                   </ul>
               </div>
