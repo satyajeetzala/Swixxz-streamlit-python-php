@@ -37,22 +37,22 @@ include 'sessioncheck.php';
 
                 <div class="mb-4">
                     <label for="artist" class="block text-gray-400 text-sm font-semibold mb-2">Artist:</label>
-                    <input type="text" name="artist" value="<?php echo $row['artist']; ?>" class="w-full dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
+                    <input type="text" name="artist" value="<?php echo $row['artist']; ?>" class="dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
                 </div>
 
                 <div class="mb-4">
                     <label for="place" class="block text-gray-400 text-sm font-semibold mb-2">Place:</label>
-                    <input type="text" name="place" value="<?php echo $row['place']; ?>" class="w-full dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
+                    <input type="text" name="place" value="<?php echo $row['place']; ?>" class="dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
                 </div>
 
                 <div class="mb-4">
                     <label for="date" class="block text-gray-400 text-sm font-semibold mb-2">Date:</label>
-                    <input type="date" name="date" value="<?php echo $row['date']; ?>" class="w-full dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
+                    <input type="date" name="date" value="<?php echo $row['date']; ?>" class="dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
                 </div>
 
                 <div class="mb-4">
                     <label for="time" class="block text-gray-400 text-sm font-semibold mb-2">Time:</label>
-                    <input type="time" name="time" value="<?php echo $row['time']; ?>" class="w-full dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
+                    <input type="time" name="time" value="<?php echo $row['time']; ?>" class="dark:bg-gray-800 border border-gray-700 p-2 rounded-md" required>
                 </div>
 
                 <div class="flex items-center justify-between">

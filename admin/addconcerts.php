@@ -32,22 +32,22 @@ include 'sessioncheck.php';
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="space-y-6">
             <div>
                 <label for="artist" class="block text-sm font-medium text-gray-200">Artist:</label>
-                <input type="text" id="artist" name="artist" class="bg-gray-900 form-input mt-1 block w-full rounded-md" required>
+                <input type="text" id="artist" name="artist" class="bg-gray-900 form-input mt-1 block h-8 rounded-md" required>
             </div>
 
             <div>
                 <label for="place" class="block text-sm font-medium text-gray-200">Place:</label>
-                <input type="text" id="place" name="place" class="bg-gray-900 form-input mt-1 block w-full rounded-md" required>
+                <input type="text" id="place" name="place" class="bg-gray-900 form-input mt-1 block h-8 rounded-md" required>
             </div>
 
             <div>
                 <label for="date" class="block text-sm font-medium text-gray-200">Date:</label>
-                <input type="date" id="date" name="date" class="bg-gray-900 form-input mt-1 block w-full rounded-md" required>
+                <input type="date" id="date" name="date" class="bg-gray-900 form-input mt-1 block h-8 rounded-md" required>
             </div>
 
             <div>
                 <label for="time" class="block text-sm font-medium text-gray-200">Time:</label>
-                <input type="time" id="time" name="time" class="bg-gray-900 form-input mt-1 block w-full rounded-md" required>
+                <input type="time" id="time" name="time" class="bg-gray-900 form-input mt-1 block h-8 rounded-md" required>
             </div>
 
             <div>
