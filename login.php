@@ -36,7 +36,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit();
         } else {
             // Invalid credentials
-            echo "Invalid email or password.";
+            echo '<script>
+        if (window.confirm("Invalid email or password. Do you want to go to login page?")) {
+            window.location.href = "login.php";
+        }
+        </script>';
         }
 
         // Free the result set
@@ -59,9 +63,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="admin/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="admin/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="admin/favicon/favicon-16x16.png">
+    <link rel="manifest" href="admin/favicon/site.webmanifest">
+    <link rel="mask-icon" href="admin/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <style>
         body {
-            background: url('admin/images/login2.png') no-repeat center center fixed;
+            background: url('admin/images/login3.png') no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -74,22 +85,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             background-color: rgba(255, 255, 255, 0.5); /* Form background color with transparency */
         }
     </style>
-    <title>Login Form</title>
+    <title>CAUTION - SWIXXZ</title>
 </head>
 <body class="flex items-center justify-center h-screen dark-mode">
 
-    <form class="bg-transparent p-8 rounded-lg shadow-lg transparent-bg" method="post" action="">
-        <label class="block text-white">Email:</label>
-        <input class="w-full mt-2 p-2 border rounded" type="email" name="email" required>
+    <form class="p-8 rounded-lg shadow-lg bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border border-black
+" method="post" action="">
+        <h1 class="text-2xl text-center p-2">LETS SNEAK IN</h1>
+        <label class="block text-white ">Email:</label>
+        <input class="w-full mt-2 p-2 border rounded bg-black" type="email" name="email" required>
 
         <label class="block text-white mt-4">Password:</label>
-        <input class="w-full mt-2 p-2 border rounded" type="password" name="password" required>
+        <input class="w-full mt-2 p-2 border rounded bg-black" type="password" name="password" required>
 
-        <button class="w-full mt-4 bg-transparent border border-blue-500 text-blue-500 p-2 rounded hover:bg-blue-500 hover:text-white transition" type="submit">Login</button>
+        <button class="w-full mt-4 bg-transparent border border-black text-white p-2 rounded hover:bg-black hover:text-white transition" type="submit">Login</button>
+        <h1 class="text-xl text-center p-2">Not a member? <a href="register.php" class="text-black">Register here</a></h1>
     </form>
 
 </body>
 </html>
 
 
-    <!-- Your other HTML content goes here -->
+   

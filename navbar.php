@@ -21,6 +21,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer">
+        <link rel="apple-touch-icon" sizes="180x180" href="admin/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="admin/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="admin/favicon/favicon-16x16.png">
+    <link rel="manifest" href="admin/favicon/site.webmanifest">
+    <link rel="mask-icon" href="admin/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 
@@ -31,12 +38,13 @@
     <!-- Logo and Navigation Links -->
     <div class="flex items-center">
         <a href="index.php" class="flex items-center">
-            <img src="https://www.swixxz.com/cdn/shop/files/attempt6_480x.gif?v=1614301760" class="object-cover h-16 pl-2" alt="FlowBite Logo" />
+            <img src="https://www.swixxz.com/cdn/shop/files/attempt6_480x.gif?v=1614301760" class="object-cover h-16 pl-2" alt="SWIXXZ" />
         </a>
-        <a href="#" class="hover:text-pink-700 text-xl">Home</a>
+        <a href="index.php" class="hover:text-pink-700 text-xl">Home</a>
         <a href="page.php" class="hover:text-pink-700 text-xl">Concerts</a>
         <a href="artists.php" class="hover:text-pink-700 text-xl">Artists</a>
         <a href="explorer.php" class="hover:text-pink-700 text-xl">Explorer</a>
+        <a href="about.php" class="hover:text-pink-700 text-xl">About</a>
     </div>
 
     <!-- User Logo -->

@@ -132,7 +132,7 @@ if (!isset($_SESSION['user_id'])) {
   <br>
   <div class="relative w-11/12 h-96 mx-auto overflow-hidden rounded-lg">
     <!-- Landscape Image -->
-    <img class="w-full h-full object-cover" src="admin/images/concert.jpg" alt="Landscape Image">
+    <img class="w-full h-full object-cover" src="admin/images/concert2.jpg" alt="Landscape Image">
 
     <!-- Text Overlay and Button -->
     <div class="absolute inset-0 flex items-center justify-center text-white text-center bg-black bg-opacity-50">
@@ -153,7 +153,7 @@ if (!isset($_SESSION['user_id'])) {
 <div class="container mx-auto flex flex-col lg:flex-row items-center justify-center p-8">
     <!-- Image Section (60% width on large screens) -->
     <div class="lg:w-7/12 p-4 ml-2 mb-8 lg:mb-0">
-        <img src="admin/images/explore.jpg" alt="Image" class="w-11/12 h-auto object-cover rounded-md">
+        <img src="admin/images/login.jpg" alt="Image" class="w-11/12 h-auto object-cover rounded-md">
     </div>
 
     <!-- Text Section (40% width on large screens) -->

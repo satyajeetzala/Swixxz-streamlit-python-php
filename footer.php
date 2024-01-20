@@ -4,7 +4,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
+              <a href="index.php" class="flex items-center">
                   <img src="https://www.swixxz.com/cdn/shop/files/attempt6_480x.gif?v=1614301760" class="h-16 me-3 pt-1" alt="FlowBite Logo" />
                   <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white pl-1 pb-1"> S W I X X Z</span>
               </a>
@@ -47,7 +47,7 @@
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-pink-700">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+          <span class="text-sm text-gray-500 sm:text-center dark:text-pink-700">© 2023 <a href="index.php" class="hover:underline">swixxz</a>. All Rights Reserved.
           </span>
           <!-- <div class="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
