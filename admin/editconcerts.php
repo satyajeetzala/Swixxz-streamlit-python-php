@@ -17,10 +17,10 @@ include 'sessioncheck.php';
             <p class="text-gray-600 dark:text-gray-300 mb-2"><?php echo $row['place']; ?></p>
             <p class="text-gray-600 dark:text-gray-300 mb-2"><?php echo $row['date'] . ' ' . $row['time']; ?></p>
             <div class="flex space-x-4">
-                <a href="updateconcert.php?id=<?php echo $row['id']; ?>" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+                <a href="updateconcert.php?id=<?php echo $row['id']; ?>" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
                     Update
                 </a>
-                <a href="deleteconcert.php?id=<?php echo $row['id']; ?>" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+                <a href="deleteconcert.php?id=<?php echo $row['id']; ?>" class="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
                     Delete
                 </a>
             </div>

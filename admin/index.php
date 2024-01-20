@@ -44,7 +44,7 @@ include 'sessioncheck.php';
 
         <table class="min-w-full h-full w-full bg-purple-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100
  rounded-md overflow-hidden">
-            <thead class="bg-gray-800 text-white">
+            <thead class="bg-gray-800 text-white bg-opacity-20">
                 <tr>
                     <th class="py-2 px-4">ID</th>
                     <th class="py-2 px-4">Artist</th>
@@ -53,7 +53,7 @@ include 'sessioncheck.php';
                     <th class="py-2 px-4">Time</th>
                 </tr>
             </thead>
-            <tbody class="bg-gray-900 text-white">
+            <tbody class="bg-gray-900 text-white bg-opacity-70">
                 <?php while ($row = mysqli_fetch_assoc($result)) : ?>
                     <tr>
                         <td class="py-2 px-4"><?php echo $row['id']; ?></td>

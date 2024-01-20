@@ -24,23 +24,24 @@ if (!isset($_SESSION['user_id'])) {
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="font-sans relative bg-gradient-to-b from-pink-900 via-gray-900 to-rose-900" style="background-image: url('images/nbg.jpg');background-repeat: no-repeat;  background-size:cover;">
 
 
-<nav class="bg-black p-4">
+<nav class="bg-purple-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 border-b-2 border-purple-900
+ p-4">
         <div class="container mx-auto flex items-center text-gray-300">
         <a href="index.php" class="flex items-center">
             <img src="https://www.swixxz.com/cdn/shop/files/attempt6_480x.gif?v=1614301760" class="object-cover h-16 pl-2" alt="FlowBite Logo" />
         </a>
-         <div class="bg-gray-800 bg-opacity-80 px-2 py-2 rounded ml-4 mr-4"> <a href="addconcerts.php" class="text-2xl ml-4 mr-4">Add Concerts</a></div>
-         <div class="bg-gray-800 bg-opacity-80 px-2 py-2 rounded ml-4 mr-4"> <a href="editconcerts.php" class="text-2xl ml-4 mr-4">Edit Concerts</a></div>
-         <div class="bg-gray-800 bg-opacity-80 px-2 py-2 rounded ml-4 mr-4"> <a href="editterms.php" class="text-2xl ml-4 mr-4">Edit Terms</a></div>
-         <div class="bg-gray-800 bg-opacity-80 px-2 py-2 rounded ml-4 mr-4"> <a href="editabout.php" class="text-2xl ml-4 mr-4">Edit About</a></div>
+         <div class=" px-2 py-2 rounded ml-4 mr-4"> <a href="addconcerts.php" class="text-2xl ml-4 mr-4"><i class="fa-solid fa-plus"> </i> Add Concerts</a></div>
+         <div class=" px-2 py-2 rounded ml-4 mr-4"> <a href="editconcerts.php" class="text-2xl ml-4 mr-4"><i class="fa-solid fa-pen-to-square"> </i> Edit Concerts</a></div>
+         <div class=" px-2 py-2 rounded ml-4 mr-4"> <a href="editterms.php" class="text-2xl ml-4 mr-4"><i class="fa-solid fa-pen-to-square"> </i> Edit Terms</a></div>
+         <div class=" px-2 py-2 rounded ml-4 mr-4"> <a href="editabout.php" class="text-2xl ml-4 mr-4"><i class="fa-solid fa-pen-to-square"> </i> Edit About</a></div>
         
-            <div class="bg-gray-800 bg-opacity-80 px-2 py-2 rounded ml-4 mr-4"> <a href="logout.php" class="text-2xl ml-4 mr-4">Log out</a></div>
+            <div class=" px-2 py-2 rounded ml-4 mr-4"> <a href="logout.php" class="text-2xl ml-4 mr-4">Log out</a></div>
         </div>
     </nav>
 

@@ -53,14 +53,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     <!-- Your HTML content goes here -->
-    <form method="post" action="">
-        <label>Email:</label>
-        <input type="email" name="email" required>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('admin/images/login2.png') no-repeat center center fixed;
+            background-size: cover;
+        }
 
-        <label>Password:</label>
-        <input type="password" name="password" required>
+        .dark-mode {
+            background-color: rgba(0, 0, 0, 0.8); /* Dark mode background color */
+            color: white;
+        }
 
-        <button type="submit">Login</button>
+        .transparent-bg {
+            background-color: rgba(255, 255, 255, 0.5); /* Form background color with transparency */
+        }
+    </style>
+    <title>Login Form</title>
+</head>
+<body class="flex items-center justify-center h-screen dark-mode">
+
+    <form class="bg-transparent p-8 rounded-lg shadow-lg transparent-bg" method="post" action="">
+        <label class="block text-white">Email:</label>
+        <input class="w-full mt-2 p-2 border rounded" type="email" name="email" required>
+
+        <label class="block text-white mt-4">Password:</label>
+        <input class="w-full mt-2 p-2 border rounded" type="password" name="password" required>
+
+        <button class="w-full mt-4 bg-transparent border border-blue-500 text-blue-500 p-2 rounded hover:bg-blue-500 hover:text-white transition" type="submit">Login</button>
     </form>
+
+</body>
+</html>
+
 
     <!-- Your other HTML content goes here -->
